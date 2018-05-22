@@ -29,11 +29,6 @@ public class App {
         private boolean help;
     }
 
-    public static void method(){
-        System.out.println("one two");
-    }
-
-
     public static void main(String[] args) {
         // There should be only one application
         Iterator<SampleApplication> applicationIterator = ServiceLoader.load(SampleApplication.class).iterator();
